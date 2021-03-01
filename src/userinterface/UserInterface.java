@@ -4,13 +4,13 @@ import core.Calculator;
 
 import java.util.Scanner;
 
-public class userinterface {
+public class UserInterface {
     Scanner scan = new Scanner(System.in);
     Calculator calculator;
-    userinterface(Calculator calculator){
+    public UserInterface(Calculator calculator){
         this.calculator = calculator;
     }
-    void run(){
+    public void run(){
         System.out.println("hello i'm luna.\n i do sum kind of mathematic task for you \n if you want do Submission write sub and if you want plus write sum and if you want to exit write it.");
         String input = scan.next();
         do{
